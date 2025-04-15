@@ -2,7 +2,7 @@
 public class Review01 {
 
     public static void main(String[] args) {
-        int price = 100;  //商品価格
+        int price = 1500;  //商品価格
         int tax = 10;  //消費税率%
         int salesTax = getSalesTax(price, tax);  //消費税
         int incTax = price + salesTax;  //税込価格
